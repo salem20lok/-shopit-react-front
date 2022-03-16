@@ -58,3 +58,9 @@ svg {
 img.card-img {
     max-width: 100px;
 }
+
+span {
+    color: red;
+    font-weight: bold !important;
+}
+

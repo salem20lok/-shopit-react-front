@@ -1,0 +1,6 @@
+input#floatingInput, input#floatingInputGrid {
+    padding: 1rem 0.75rem;
+    width: 100%;
+    margin: 0;
+    text-align: left;
+}

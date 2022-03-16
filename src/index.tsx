@@ -14,6 +14,9 @@ import en from "./i18n/en.json";
 import ar from "./i18n/ar.json";
 import fr from "./i18n/fr.json";
 
+import { Provider } from "react-redux";
+import store from "./store/config/configureStore";
+
 interface I18n {
   en: Record<string, string>;
   fr: Record<string, string>;
@@ -29,7 +32,9 @@ const messages: Record<string, string> = allMessages[userLang];
 ReactDOM.render(
   <React.StrictMode>
     <IntlProvider messages={messages} locale={"ar"} defaultLocale="fr">
-      <App />
+      <Provider store={store}>
+        <App />
+      </Provider>
     </IntlProvider>
   </React.StrictMode>,
   document.getElementById("root")

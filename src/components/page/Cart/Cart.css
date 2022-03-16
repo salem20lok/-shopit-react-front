@@ -1,0 +1,46 @@
+h2.title, .price {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.price {
+    font-size: 20px;
+}
+
+.recue {
+    background: #f5f5f5;
+    padding: 15px;
+    position: sticky;
+    min-height: 245px;
+    margin-top: 100px;
+}
+
+p {
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.cart {
+    min-height: 80vh;
+}
+
+p.total {
+    margin: 0;
+}
+
+span.price-total {
+    font-size: 15px;
+    font-weight: 300 !important;
+    color: black;
+}
+
+h1.title {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+button.Case.btn.btn-primary {
+    width: 50%;
+    margin: 0 auto;
+}

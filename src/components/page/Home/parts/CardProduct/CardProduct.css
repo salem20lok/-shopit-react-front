@@ -14,5 +14,23 @@
     left: 50%;
     transform: translate(-50%, -50%) rotate(45deg);
     font-size: 24px;
-    z-index: 1000;
+    z-index: 5;
+}
+
+img.card-img-top {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+p.overflow-auto.card-text {
+    height: 70px;
+}
+
+
+.card-title.h5 {
+    font-size: 10px;
+    height: 30px;
+    font-weight: bold;
+    margin: auto;
 }

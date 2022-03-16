@@ -4,11 +4,11 @@ import { AiOutlinePlusCircle } from "@react-icons/all-files/ai/AiOutlinePlusCirc
 import { useState } from "react";
 
 const SliderBarFilter = () => {
-  const [categories, setCategories] = useState<boolean>(false);
-  const [price, setPrice] = useState<boolean>(false);
-  const [ratings, setRatings] = useState<boolean>(false);
+  const [categories, setCategories] = useState<boolean>(true);
+  const [price, setPrice] = useState<boolean>(true);
+  const [ratings, setRatings] = useState<boolean>(true);
   return (
-    <Col className={"sidebar"} xs={4}>
+    <Col className={"sidebar"} lg={4} md={4} xs={12}>
       <Form className={"sidebarForm"}>
         <InputGroup className="mb-3">
           <Button size="lg" type={"reset"} variant="danger">

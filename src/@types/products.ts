@@ -1,4 +1,5 @@
 export interface Product {
+  _id: string;
   name: string;
   price: number;
   description: string;
@@ -8,7 +9,7 @@ export interface Product {
   stock: number;
   numOfReviews: number;
   Reviews: Review[];
-  createdAt: Date;
+  createdAt?: Date;
 }
 
 export interface Review {

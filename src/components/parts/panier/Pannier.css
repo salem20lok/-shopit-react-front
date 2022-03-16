@@ -1,0 +1,62 @@
+.Pannier {
+    position: absolute;
+    background-color: white;
+    display: block;
+    padding: 20px;
+    z-index: 10;
+    top: 40px;
+    width: 500px;
+    right: -30px;
+    color: black;
+}
+
+.header.d-flex.justify-content-between {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+button.btn.btn-primary.btn-lg {
+    width: 50%;
+    margin: 10px 0;
+}
+
+input[type="text"] {
+    width: 18%;
+    text-align: center;
+}
+
+.product-box {
+    padding: 10px;
+}
+
+h4 {
+    font-size: 10px;
+}
+
+img {
+    width: 50px;
+}
+
+.overlay {
+    z-index: 5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0000006e;
+}
+
+input[type="number"] {
+    width: 60px;
+}
+
+.box.overflow-auto {
+    max-height: 200px;
+    margin: 0;
+}
+
+h4.title {
+    font-size: 10px;
+    font-weight: bold;
+}
